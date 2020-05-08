@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>3 Col Portfolio - Start Bootstrap Template</title>
+    <title>GeoVis Portfolio</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,25 +23,25 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <a class="navbar-brand" href="#">Nathaniel's Portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home
+              <a class="nav-link" href="index.html">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="shortbio.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="files/NatGastonResumeAvoDataAnalyst.pdf">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="mailto:nathaniel-gaston@uiowa.edu">Contact</a>
             </li>
           </ul>
         </div>
@@ -52,74 +52,52 @@
     <div class="container">
 
       <!-- Page Heading -->
-      <h1 class="my-4">Page Heading
-        <small>Secondary Text</small>
+      <h1 class="my-4">Geographic Visualization
+        <small>GEOG:3540</small>
       </h1>
 
       <div class="row">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="https://observablehq.com/@gcnat/choropleth-mapping-geog-3540-assignment-2"><img class="card-img-top" src="images/choropleth.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Project One</a>
+                <a href="https://observablehq.com/@gcnat/choropleth-mapping-geog-3540-assignment-2">Oregon Homeowner % by County</a>
               </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+              <p class="card-text">In the conext of home ownership on a county wide level, we can see that the percentages of each class do not vary widely. I chose to use natural breaks as my classification method due to this relative closeness in %. This allows us to better see which counties have a relatively lower home owner %. I chose three classes because this allows for a "low, medium, high" comparison at a glance and does not make it difficult to distinguish between classes. Not surprisingly, we see the lowest percentages in the counties with the highest population density as property prices and taxes are higher in these areas. Additionally, with more young people living there as well, this would drive down hown ownership. With that being said, it might be more interesting to view the state on a census tract level instead of county level given the size discrepancy of some of the counties.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="https://observablehq.com/@gcnat/assignment-3-proportional-graduated-symbol-mapping"><img class="card-img-top" src="images/proportionalSymbols.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Project Two</a>
+                <a href="https://observablehq.com/@gcnat/assignment-3-proportional-graduated-symbol-mapping">Proportional/Graduated Symbol Mapping</a>
               </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+              <p class="card-text">There were far more wildfires within Oregon than expected. The vast majority of which are quite small (5 acres or less), while a few are very large in comparison. Since the values can vary so widely, a proportional scale was used so that all values could still be visible on the map. Interestingly, we see a larger collection of big fires with almost no smaller ones in the south east part of the state, which could merit some further investigation. Our data includes further data such as precise year and fire cause which could provide further analysis on each fire and overall trends.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="https://observablehq.com/@gcnat/assignment-4-bivariate-choropleth-mapping"><img class="card-img-top" src="images/bivariate.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Project Three</a>
+                <a href="https://observablehq.com/@gcnat/assignment-4-bivariate-choropleth-mapping">Bivariate Mapping</a>
               </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+              <p class="card-text">I thought it would be interesting to see if population density throughout Oregon would affect the overall % of foreign born citizens. Since we technically have nine classes represented, frequent reference to the legend is necessary which makes the legend style useful in this case. I thought I would try rotating the legend onto its other point to see how it felt in relation to the original orientation. Finally, the choice of different color schemes is useful to swap between so as to highlight the bivariate style.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="https://observablehq.com/@caglarkoylu/isarithmic-mapping-geog-3540"><img class="card-img-top" src="images/isarithmic.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Project Four</a>
+                <a href="https://observablehq.com/@caglarkoylu/isarithmic-mapping-geog-3540">Isarithmic Mapping Example</a>
               </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Five</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Six</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
+              <p class="card-text">This is an example of isarithmic mapping created by Caglar Koylu for GEOG 3540</p>
             </div>
           </div>
         </div>
@@ -127,6 +105,7 @@
       <!-- /.row -->
 
       <!-- Pagination -->
+      <!--Comment out the pages as they are not necessary at this time
       <ul class="pagination justify-content-center">
         <li class="page-item">
           <a class="page-link" href="#" aria-label="Previous">
@@ -150,7 +129,7 @@
           </a>
         </li>
       </ul>
-
+    -->
     </div>
     <!-- /.container -->
 
